@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP-page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <script>
+        alert("Keep Learning . Stay Tuned !!")
+    </script>
+    <nav>
+        <ul>
+            <li><img src="logo.jpg" alt="logo" style="height: 25px;"></li>
+            <li style="color:black;font-size: 23px;"> <b>Code Flow</b> </li>
+            <li> &nbsp;</li>
+            <li><a href="Project.html"><b>Home</b></a></li>
+            <li><a href="Cources.html"><b>Courses</b></a></li>
+            <li><a href="Practice.html"><b>Practice</b></a></li>
+            <li><a href="contact.html"><b>Contact</b></a></li>
+            <button class="login" style="background-color: #333; color:white">Login</button>
+            <button class="login" onclick="document.location = 'SignUp.html'">SignUp</button>
+        </ul>
+    </nav>
+    <h2 style="margin-left: 42%; color:aliceblue ; font-size:40px">Log-In</h2>
+    <form name="signupForm" onsubmit="return validateForm()" method="post" class="loginform">
+        <table style="border-spacing: 15px; text-align:center">
+            <tr>
+                <td> <label for="email">E-mail Id :</label></td>
+                <td> <input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td> <input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><input type="Submit" onclick="document.location = 'Cources.html'" id="submit"
+                        style="background-color: #2196F3!important; width:150%"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

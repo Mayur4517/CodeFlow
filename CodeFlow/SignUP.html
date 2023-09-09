@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp-Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <script>
+        alert('Lets SignUP ')
+    </script>
+    <nav>
+        <ul>
+            <li><img src="logo.jpg" alt="logo" style="height: 25px;"></li>
+            <li style="color:black;font-size: 23px;"> <b>Code Flow</b> </li>
+            <li> &nbsp;</li>
+            <li><a href="Project.html"><b>Home</b></a></li>
+            <li><a href="Cources.html"><b>Courses</b></a></li>
+            <li><a href="Practice.html"><b>Practice</b></a></li>
+            <li><a href="contact.html"><b>Contact</b></a></li>
+            <button class="login" onclick="document.location = 'login.html'">Login</button>
+            <button class="login" style="background-color: #333; color:white">SignUp</button>
+        </ul>
+    </nav>
+    <h2 style="margin-left: 42%; color:rgb(240, 248, 255) ; font-size:40px">Sign-UP</h2>
+    <form name="signupForm" method="post" class="loginform" action="signup.php">
+        <table style="border-spacing: 15px; text-align:center">
+            <tr>
+                <td> <label for="firstName">First Name:</label></td>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name:</label></td>
+                <td> <input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+            <tr>
+                <td> <label for="email">E-mail Id :</label></td>
+                <td> <input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td> <input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><input type="Submit" id="submit" style="background-color: #2196F3!important;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

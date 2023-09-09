@@ -1,0 +1,300 @@
+body {
+    background-image: url('bgimg.jpg');
+    margin-top: -16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    /* margin-left: -10px;
+    margin-right: -9px; */
+}
+
+
+header,
+nav,
+section,
+footer {
+    padding: 20px;
+}
+
+
+
+div {
+    display: inline-block;
+}
+
+.C img,
+.Cplus img,
+.Python img,
+.html img,
+.css img,
+.javascript img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 6px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+
+}
+
+.php img {
+    width: 120px;
+    height: 80px;
+    margin-left: -17px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+}
+
+.Java img {
+    height: 85px;
+    width: 85px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+}
+
+.C img:hover,
+.Cplus img:hover,
+.Python img:hover,
+.Java img:hover,
+.html img:hover,
+.css img:hover,
+.javascript img:hover,
+.php img:hover {
+    transform: translate(-5px, -10px);
+}
+
+.C,
+.Cplus,
+.Java,
+.Python,
+.html,
+.css,
+.javascript,
+.php {
+    padding: 0;
+    border: none black 2px;
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+
+.C:hover,
+.Cplus:hover,
+.Java:hover,
+.Python:hover,
+.html:hover,
+.css:hover,
+.javascript:hover,
+.php:hover {
+    transform: scale(1.2);
+}
+
+#startc,
+#startcplus,
+#startjava,
+#startpython {
+    text-decoration: none;
+    color: #455a64
+}
+
+.LearnC,
+.LearnCplus,
+.Learnjava,
+.Learnpython {
+    color: #434242;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+nav {
+    background-color: #C0C0C0;
+    height: 27px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 3px 10px;
+    font-size: 20px;
+
+}
+
+
+nav ul button {
+    float: right;
+    width: 8%;
+    height: 24px;
+    margin-left: 19px;
+    border-radius: 25px;
+    background-color: #C0C0C0;
+}
+
+nav ul button:hover {
+    background-color: black;
+    color: #f1f0f0;
+    transform: scale(1.1);
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul li:hover {
+    transform-style: preserve-3d;
+}
+
+section {
+    background-color: #edede9;
+}
+
+#Heading {
+    border: none;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+.contact-form {
+    width: 400px;
+    margin-left: 30%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+span img {
+    height: 20px;
+    width: 20px;
+}
+
+span {
+    display: inline-block;
+}
+
+.Clanguage #part1,
+#part2,
+#part3,
+#part4 {
+    border: none black 2px;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 7px;
+    padding-top: 8px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+    background-color: #f4eeee;
+
+}
+
+.Clanguage img {
+    height: 170px;
+    width: 270px;
+    padding-left: -25px;
+}
+
+.Clanguage img:hover {
+    transform: scale(1.3);
+}
+
+div span {
+    color: #fff;
+}
+
+
+.signup table {
+    border: 1px solid black;
+    padding: 50px 50px;
+    border-radius: 30px;
+    border-spacing: 35px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+    background-color: #c0c0c062;
+    margin-left: 90%;
+    margin-top: 8%;
+}
+
+.signup input {
+    padding: 0px 0px 0px 0px;
+    border-radius: 4px;
+    padding-top: 20px;
+    border-width: 0.4px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+}
+
+
+.form {
+    margin-top: 50px;
+    margin-left: 510px;
+}
+
+.loginform {
+    border: 1px solid black;
+    padding: 50px 50px;
+    border-radius: 30px;
+    border-spacing: 35px;
+    background-color: #C0C0C0;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+    padding: 25px 25px 25px 25px;
+}
+
+.loginform input {
+    border-radius: 4px;
+    padding-top: 20px;
+    border-width: 0.4px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+}

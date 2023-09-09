@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animated "Thank you" Text</title>
+    <style>
+        #thankYouText {
+            font-size: 48px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(-50px);
+            transition: opacity 1s, transform 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Thank You Page</h1>
+    <div id="thankYouText">Thank you!</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var thankYouText = document.getElementById("thankYouText");
+            thankYouText.style.opacity = "1";
+            thankYouText.style.transform = "translateY(0)";
+        });
+    </script>
+</body>
+
+</html>
